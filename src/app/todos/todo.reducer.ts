@@ -3,9 +3,9 @@ import * as actions from './todo.actions';
 import { Todo } from './models/todo.model';
 
 export const initialState: Todo[] = [
-    new Todo('Salvar el mundo'),
-    new Todo('Vencer a Thanos'),
-    new Todo('Comprar traje de deadpool')
+    new Todo('Limpiar tu habitación'),
+    new Todo('Bañarte'),
+    new Todo('Pasear mascota')
 ];
 
 const _todoReducer = createReducer(initialState,
